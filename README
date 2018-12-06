@@ -1,7 +1,27 @@
 
-This module compares between the efficacy of
-t-test, signed-rank test and rank-sum test,
-in terms of Fisher Information wrt iid Normal data.
+NUMERIC CALCULATION OF FISHER INFORMATION
+FOR EVALUATION OF VARIOUS TWO-POPULATIONS-COMPARISON TESTS
+(IN PARTICULAR PARAMETRIC VS. NON-PARAMETRIC TESTS)
+___________________________________________________
+
+Abstract:
+
+Non-parametric tests can avoid the data-normality assumption
+in the cost of losing some of the information of the data.
+
+NumericFI module compares quantifies the loss of information in
+non-parametric tests (signed-rank & rank-sum) compared to
+parametric tests (t-test) in the case of two paired datasets
+of normal iid data, using numeric calculation of Fisher Information
+of each test statistic.
+
+The default settings (just run NumericFI.py...) demonstrate
+the advantage of t-test, though the rank-sum test is
+surprisingly close and in particular more informative than
+the signed-rank test.
+It is unknown yet whether this is the result of a bug, of the
+chosen setup, or of total uselessness of the signed-rank test.
+
 ___________________________________________________
 
 Background:
