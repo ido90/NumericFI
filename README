@@ -19,8 +19,14 @@ The default settings (just run NumericFI.py...) demonstrate
 the advantage of t-test, though the rank-sum test is
 surprisingly close and in particular more informative than
 the signed-rank test.
+
+This is surprising since the signed-rank test is dedicatedly
+designed for paired data, and widely considered superior to
+the rank-sum test for such data - see for example:
+https://stats.stackexchange.com/questions/91034/difference-between-the-wilcoxon-rank-sum-test-and-the-wilcoxon-signed-rank-test
 It is unknown yet whether this is the result of a bug, of the
-chosen setup, or of total uselessness of the signed-rank test.
+chosen setup, of problems with the FI measure, or of total
+uselessness of the signed-rank test.
 
 ___________________________________________________
 
