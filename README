@@ -9,7 +9,7 @@ Abstract:
 Non-parametric tests can avoid the data-normality assumption
 in the cost of losing some of the information of the data.
 
-NumericFI module compares quantifies the loss of information in
+NumericFI module quantifies the loss of information in
 non-parametric tests (signed-rank & rank-sum) compared to
 parametric tests (t-test) in the case of two paired datasets
 of normal iid data, using numeric calculation of Fisher Information
