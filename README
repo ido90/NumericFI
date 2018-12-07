@@ -108,7 +108,7 @@ ___________________________________________________
 Results:
 
 1. The code takes few seconds on a standard laptop to run
-and analyze the 3 tests on apparently-sufficient 100K datasets
+and analyze the 3 tests on apparently-sufficient 10K datasets
 of 100 samples each.
 
 2. Both methods of numeric calculation managed to restore
