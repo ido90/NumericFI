@@ -1,5 +1,5 @@
 
-# Numeric Calculation of Fisher Information for Quantification of Informaiton Loss in Non-Parametric Tests in Two-Populations-Comparison
+# Numeric Calculation of Fisher Information for Quantification of Information Loss in Non-Parametric Tests in Two-Populations-Comparison
 
 ## Abstract
 
